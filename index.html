@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Leeds Road Traffic Casualties 2024</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js" defer></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Road Traffic Casualties in Leeds (2024)</h1>
+
+  <p>
+    This website explores road traffic casualties
+    among different age groups in Leeds in 2024.
+  </p>
+
+  <h2>Casualties by Age Group</h2>
+
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>Age Group</th>
+        <th>Number of Casualties</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  
+<h2>Road Traffic Casualties by Age Group</h2>
+
+<canvas id="ageChart"></canvas>
+
+<p>
+  Note: These figures represent recorded casualties,
+  not the risk of being involved in a road traffic collision.
+  Differences in population size and travel patterns
+  are not accounted for.
+</p>
+
+
+  <p>
+    Data source:
+    <a href="https://www.data.gov.uk/dataset/b483ed79-65f2-4809-8fc2-e61f7bbfad11/road-traffic-collisions">
+      UK Government Open Data
+    </a>
+  </p>
+  
+</body>
+</html>
