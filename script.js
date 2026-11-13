@@ -77,14 +77,23 @@ Papa.parse('leeds_age_data.csv', {
           borderRadius: 6
         }]
       },
+
       options: {
         responsive: true,
-        maintainAspectRatio: false,
+        maintainAspecatio: false,
+
+        interaction: {
+          mode: 'index',
+          intersect: false,
+          axis: 'x'
+        },
+
         plugins: {
           legend: {
             display: false
           }
         },
+
         scales: {
           y: {
             beginAtZero: true,
