@@ -80,7 +80,7 @@ Papa.parse('leeds_age_data.csv', {
 
       options: {
         responsive: true,
-        maintainAspecatio: false,
+        maintainAspectRatio: false,
 
         interaction: {
           mode: 'index',
